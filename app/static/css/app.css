@@ -5,3 +5,32 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.home{
+    text-align: center;
+}
+
+.news{
+    text-align:center;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.news__list{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.card{
+    text-align: left;
+    border-top: solid #3B8471;
+    box-shadow: 2px 2px 5px gray;
+    padding-left: 10px;
+    height: 450px;
+    
+}
+
